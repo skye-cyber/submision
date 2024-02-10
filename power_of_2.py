@@ -19,4 +19,4 @@ def power(number):
 
 
 number = int(input("Enter a number:"))
-print(f"Is{number} a power of 2?\033[32m {power(number)}\033[0m")  # write return value in green color using ASCII
+print(f"Is {number} a power of 2?\033[32m {power(number)}\033[0m")  # write return value in green color using ASCII
